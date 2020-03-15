@@ -17,3 +17,13 @@ The framework is not novel and very small. It was mainly set up to experiment wi
 ## Framework 
 
 There are four main classes 
+
+## Simulate your own experiments 
+
+## Known Dependencies 
+
+## Install framework
+
+## Get in touch 
+
+
