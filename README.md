@@ -10,20 +10,43 @@ on the entities of the domain, their relation and their interaction. The intutiv
 
 The thesis looked closer at intuitive psychology, which is a model, humans use to explain other peoples actions. The framework is used to explain the self-serving bias
 
-More explanation on the background can be found in the  thesis.
+More explanation on the background can be found in the thesis.
 
-The framework is not novel and very small. It was mainly set up to experiment with how one could implement abstract intuitive theories that humans use in everyday life to explain a well studied cognitive process.
 
 ## Framework 
 
-There are four main classes 
+There are three main classes to support the simulation of experiments 
+
+Variable ('utils.py'): A class to simulate a psychological variable, e.g. self-worth. It is assumed to have a certain distribution or can be fixed. Basically a wrapper around pyro.distribution objects that simplifies inference with intutivie theories. 
+Human ('human.py'): A class that simulates a participant in an experiment
+Experiment ('experiment.py'): A class to support setting up and running experiments. Different conditions can be registered
+
+The file 'generative_processes.py' contains functions that simulate different intuitive theories.  
+
+The file 'experiment.py' contains the setup of different experiments trying to reproduce experimental results that have been
+empirically established in the literature of the self-serving bias. 
 
 ## Simulate your own experiments 
+
+The file run_experiments.py allows you to setup and run your own simulations.
+
+The command line arguments are: 
+* --
+* --
+* --
+* --
+* --
+
+For example setting up and running the experiment described in:
+
+'python3 run_experiments.py 
 
 ## Known Dependencies 
 
 ## Install framework
 
 ## Get in touch 
+
+In case you find mistakes, have questions or simply find the idea/topic interesting. Get in touch with nhopner[at]gmail.com
 
 
