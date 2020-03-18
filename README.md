@@ -49,4 +49,6 @@ For example setting up and running the experiment described in:
 
 In case you find mistakes, have questions or simply find the idea/topic interesting. Get in touch with nhopner[at]gmail.com
 
+## To-do
 
+* Add logging during experiment run
