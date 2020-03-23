@@ -7,5 +7,5 @@ setup(
     author='Niklas Höpner',
     author_email='nhopner@gmail.com',
     description='A simple framework for simulating experiments about the self-serving bias',
-    install_requires=['pyro','tqdm','numpy','matplotlib']
+    install_requires=['pyro-ppl','tqdm','numpy','matplotlib']
 )
