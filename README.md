@@ -14,7 +14,7 @@ More explanation on the background can be found in the thesis. Graphs and code m
 
 ## Install framework
 
-It is the easiest to create a new virtual environment (for example with (conda)[https://docs.conda.io/en/latest/]). Activate the environment and simply clone the git repo into the desired directory. From inside the cog_process_sim directory run
+It is the easiest to create a new virtual environment (for example with [conda](https://docs.conda.io/en/latest/). Activate the environment and simply clone the git repo into the desired directory. From inside the cog_process_sim directory run
 
 ```bash
 pip install -e .
